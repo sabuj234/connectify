@@ -2,7 +2,6 @@ import React,{useState,useRef} from "react";
 import dp from "../../img/dp.png";
 import "./PostShare.css";
 import {UilScenery,UilPlayCircle,UilLocationPoint,UilSchedule,UilTimes} from '@iconscout/react-unicons';
-import userEvent from "@testing-library/user-event";
 
 
 const PostShare = () => {
