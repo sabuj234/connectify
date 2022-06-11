@@ -11,7 +11,7 @@ const ProfileCard = () => {
 
   useEffect(()=>{
     location.pathname.includes("profile")? setProfilePage(true): setProfilePage(false);
-  },[])
+  },[location.pathname]);
 
 
 
