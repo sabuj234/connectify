@@ -1,4 +1,4 @@
-.share{
+.PostShare{
     display: flex;
     gap: 1rem;
     background-color: var(--cardColor);
@@ -6,19 +6,20 @@
     border-radius: 1rem;
 }
 
-.share>img{
+
+.PostShare>img{
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
 }
-
-.inputbox{
+.PostShare>div{
     display: flex;
     flex-direction: column;
     width: 90%;
-    gap:1rem;
+    gap: 1rem;
 }
-.inputbox>input{
+
+.PostShare>div>input{
     background-color: var(--inputColor);
     border-radius: 10px;
     padding: 10px;
@@ -27,10 +28,13 @@
     outline: none;
 }
 
+
+
+
+
 .postOptions{
     display: flex;
     justify-content: space-around;
-
 }
 
 .option{
@@ -47,22 +51,6 @@
 .option:hover{
     cursor: pointer;
 }
-
-.photo{
-    color: var(--photo);
-}
-.video{
-    color: var(--video);
-}
-
-.location{
-    color: var(--location);
-}
-
-.schedule{
-    color:var(--schedule)
-}
-
 .ps-button{
     padding: 5px;
     padding-left: 20px;
@@ -70,19 +58,16 @@
     font-size: 12px;
 }
 
-.fileSelect{
-    display: none;
-}
 
 .previewImage{
     position: relative;
-
+    /* display: flex; */
 }
 
 .previewImage>svg{
     position: absolute;
     right: 1rem;
-    top:0.5rem;
+    top: 0.5rem;
     cursor: pointer;
 }
 
